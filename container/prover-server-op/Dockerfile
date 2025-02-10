@@ -53,6 +53,7 @@ COPY --from=full_image / /
 COPY prover-server-op/allocator.yaml /etc/nitro_enclaves/allocator.yaml
 COPY prover-server-op/allocator.yaml /ne-deps/etc/nitro_enclaves/allocator.yaml
 COPY prover-server-op/socat /usr/bin/socat
+COPY prover-server-op/vsock-proxy /usr/bin/vsock-proxy
 
 COPY prover-server-op/prover-server-op-0.2.eif /home
 COPY prover-server-op/proxy-bin /home/proxy-bin
