@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Copyright 2022 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
-readonly EIF_PATH="/home/prover-server-op-0.2.eif"
-readonly ENCLAVE_CPU_COUNT=2
+readonly EIF_PATH="/home/tee-server.eif"
+readonly ENCLAVE_CPU_COUNT=6
 readonly ENCLAVE_MEMORY_SIZE=24000
 
 main() {
